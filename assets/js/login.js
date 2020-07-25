@@ -52,7 +52,7 @@ $('#form_reg').on('submit', function(e) {
 
 
 //监听表单的提交事件,ajax请求登录
-$('#login-box').on('submit', function(e) {
+$('#form_login').on('submit', function(e) {
     e.preventDefault();
     $.ajax({
         url: '/api/login',
